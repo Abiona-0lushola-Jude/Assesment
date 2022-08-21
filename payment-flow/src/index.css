@@ -3,7 +3,7 @@
 *::after{
   padding: 0;
   margin: 0;
-  list-style: none;
+  list-style-type: none;
   text-decoration: none;
 }
 
@@ -14,8 +14,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(180deg, rgba(242, 201, 76, 0.2) 0%, rgba(242, 153, 74, 0.2) 100%);
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -26,7 +26,11 @@ code {
   font-size: 2.25rem;
   margin-bottom: 2rem;
 }
-.active{
+.nav a{
+  text-decoration: none;
+  color: #BDBDBD;
+}
+.nav a.active{
   color: #F2994A;
 }
 .active::after{
@@ -35,7 +39,7 @@ code {
   margin-block: 1rem 0;
   background-color: #F2994A;
   border-radius: 0.5rem;
-  height: 13px;
+  height: 5px;
   display: block;
   z-index: 4;
 }
@@ -46,9 +50,8 @@ code {
   margin-top: 3.5rem;
 }
 .page-container{
-  width: 60%;
-  background-image: linear-gradient(rgba(242, 201, 76, 0.2), rgba(242, 153, 74, 0.2));
-  border: 1px solid;
+  width: 70%;
+  /* border: 1px solid; */
 }
 .nav{
   display: flex;
@@ -56,6 +59,20 @@ code {
 }
 .nav-line{
   position: relative;
-  bottom: 0.2rem;
+  bottom: 1.2rem;
   z-index:-1;
+}
+.backCard{
+  position: absolute;
+  top: 32rem;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+label{
+  font-weight: 700;
+}
+.purchase::before{
+  visibility: hidden;
 }
