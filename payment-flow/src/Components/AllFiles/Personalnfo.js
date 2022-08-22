@@ -1,8 +1,6 @@
 import React from 'react'
 import Form from 'react-bootstrap/Form';
 import { useNavigate } from 'react-router-dom';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faSolid, faAsterisk } from '@fortawesome/free-solid-svg-icons'
 
 
 const Personalnfo = () => {
