@@ -11,7 +11,7 @@ const Personalnfo = () => {
       <label htmlFor="name" className='form-label my-3'>Name</label>
       <input 
       type="text" 
-      className='form-control'
+      className='form-control mb-4'
       name="name" 
       id="name" 
       placeholder='Name' 
@@ -22,7 +22,7 @@ const Personalnfo = () => {
       <p>The Purchase receipt would be sent to the address</p>
       <input 
       type="email" 
-      className='form-control'
+      className='form-control mb-4'
       name="email" 
       id="email" 
       required={true} 
@@ -32,7 +32,7 @@ const Personalnfo = () => {
       <label htmlFor="addressOne" className='form-label my-3'>Address 1</label>
       <input 
       type="text" 
-      className='form-control'
+      className='form-control mb-4'
       name="addressOne" 
       id="addressOne" 
       placeholder='Enter Your First chioce of Address here'
@@ -41,13 +41,13 @@ const Personalnfo = () => {
       <label htmlFor="addressTwo" className='form-label my-3'>Address 2</label>
       <input 
       type="text" 
-      className='form-control'
+      className='form-control mb-4'
       name="addressTwo" 
       id="addressTwo" 
       placeholder='Enter Your Second chioce of Address here'
       />
       {/* Table for LGA and State */}
-      <div className="local-state my-3 container-fluid ps-0 pe-0">
+      <div className="local-state my-3  container-fluid ps-0 pe-0">
         <div className="row">
           <div className="col-8">
               {/* ASection for LGA */}
@@ -80,9 +80,9 @@ const Personalnfo = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex my-4 gap-5">
-      <button className="btn btn-lg btn-secondary" onClick={()=>  navigate('/billing-info')}>Next</button>  
-       <button className="btn btn-lg btn-transparent" onClick={()=> navigate('/')}>Cancel Payment</button>
+      <div className="d-flex my-5 gap-5">
+      <button className="btn btn-lg btn-made text-white" onClick={()=>  navigate('/billing-info')}>Next</button>  
+       <button className="btn btn-lg btn-outline" onClick={()=> navigate('/')}>Cancel Payment</button>
       </div> 
     </Form>
   )

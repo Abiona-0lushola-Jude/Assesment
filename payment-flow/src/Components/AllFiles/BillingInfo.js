@@ -12,14 +12,14 @@ const BillingInfo = () => {
       type="text" 
       name="cardName" 
       id="cardName" 
-      className="form-control"
+      className="form-control mb-5"
       required={true}
       placeholder='Opara Linus Ahmed' 
       />
       {/* card type */}
       <label htmlFor="cardType" className="form-label my-3">Card Type</label>
       <select 
-      name="cardType" id="cardType" className="form-select">
+      name="cardType" id="cardType" className="form-select mb-5">
         <option value="visa">Visa</option>
         <option value="mastercard">MasterCard</option>
         <option value="verve">Verve</option>
@@ -32,7 +32,7 @@ const BillingInfo = () => {
               type="text" 
               name="cardDetails" 
               id="cardDetails" 
-              className="form-control" 
+              className="form-control mb-5" 
               required={true}
               placeholder='44960 44960 44960 44960'
               />
@@ -43,7 +43,7 @@ const BillingInfo = () => {
             type="text" 
             name="expiryDate" 
             id="expiryDate" 
-            className="form-control" 
+            className="form-control mb-5" 
             required={true}
             placeholder='04 / 23'
             />
@@ -54,7 +54,7 @@ const BillingInfo = () => {
               type="text" 
               name="cvv" 
               id="cvv" 
-              className="form-control" 
+              className="form-control mb-5" 
               required={true}
               placeholder='923'
               />
@@ -63,8 +63,8 @@ const BillingInfo = () => {
       </div>
 
       <div className="d-flex my-4 gap-5">
-      <button className="btn btn-lg btn-secondary" onClick={()=>  navigate('/billing-info/pay-now')}>Next</button>  
-       <button className="btn btn-lg btn-transparent" onClick={()=> navigate('/')}>Cancel Payment</button>
+      <button className="btn btn-lg btn-made text-white" onClick={()=>  navigate('/confirm')}>Next</button>  
+       <button className="btn btn-lg btn-outline" onClick={()=> navigate('/')}>Cancel Payment</button>
       </div> 
     </Form>
   )
