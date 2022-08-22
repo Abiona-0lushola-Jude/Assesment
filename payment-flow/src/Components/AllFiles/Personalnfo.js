@@ -2,12 +2,12 @@ import React from 'react'
 import Form from 'react-bootstrap/Form';
 import { useNavigate } from 'react-router-dom';
 
-
 const Personalnfo = () => {
     const navigate  = useNavigate()
   
   return (
     <Form>
+      
       <label htmlFor="name" className='form-label my-3'>Name</label>
       <input 
       type="text" 
@@ -64,18 +64,18 @@ const Personalnfo = () => {
               {/* state */}
               <label htmlFor="state" className='form-label'>State</label>
               <select name="state" id="state" className='form-select'>
-                <option value="abia">Abia</option>
-                <option value="adamawa">Adamawa</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
-                <option value="abia">Abia</option>
+                <option value="abia">	Abia State</option>
+                <option value="adamawa">Adamawa State</option>
+                <option value="abia">Akwa Ibom State</option>
+                <option value="abia">Anambra State</option>
+                <option value="abia">Bauchi State</option>
+                <option value="abia">Bayelsa State</option>
+                <option value="abia">Benue State</option>
+                <option value="abia">Borno State</option>
+                <option value="abia">Cross River State</option>
+                <option value="abia">Delta State</option>
+                <option value="abia">Ebonyi State</option>
+                <option value="abia">Edo State</option>
               </select>
           </div>
         </div>
