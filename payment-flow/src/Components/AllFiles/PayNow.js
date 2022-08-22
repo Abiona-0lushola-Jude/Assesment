@@ -1,16 +1,21 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { useNavigate } from 'react-router-dom'
+import img from './image/Vector.jpg'
 
-const PayNow = () => {
+const PayNow = ({data}) => {
   const navigate = useNavigate()
   
   return (
     <>
       <div className="card">
-        <div className="card-header">
+        <div className="card-head py-3">
           <tr className='d-flex justify-content-around py-2'>
             <td>Item Name</td>
-            <td>Price</td>
+            <div className="d-flex gap-2">
+              <img src={img} alt="Naira Symbol" />
+              <td>Price</td>
+            </div>
+            
           </tr>
         </div>
         <div className="card-body">
@@ -31,8 +36,8 @@ const PayNow = () => {
         </div>
       </div>
       <div className="d-flex my-4 gap-5">
-      <button className="btn btn-lg btn-secondary" onClick={()=>  navigate('/purchase')}>Pay</button>  
-       <button className="btn btn-lg btn-transparent" onClick={()=> navigate('/')}>Cancel Payment</button>
+      <button className="btn btn-lg btn-made text-white" onClick={()=> navigate('/purchase')}>Pay</button>  
+       <button className="btn btn-lg btn-outline" onClick={()=> navigate('/')}>Cancel Payment</button>
       </div>
     </>
     
