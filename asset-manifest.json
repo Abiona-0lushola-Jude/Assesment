@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Assesment/payment-flow/static/css/main.dbd33653.css",
-    "main.js": "/Assesment/payment-flow/static/js/main.17831779.js",
+    "main.js": "/Assesment/payment-flow/static/js/main.f221c7b4.js",
     "index.html": "/Assesment/payment-flow/index.html",
     "main.dbd33653.css.map": "/Assesment/payment-flow/static/css/main.dbd33653.css.map",
-    "main.17831779.js.map": "/Assesment/payment-flow/static/js/main.17831779.js.map"
+    "main.f221c7b4.js.map": "/Assesment/payment-flow/static/js/main.f221c7b4.js.map"
   },
   "entrypoints": [
     "static/css/main.dbd33653.css",
-    "static/js/main.17831779.js"
+    "static/js/main.f221c7b4.js"
   ]
 }
