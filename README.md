@@ -11,7 +11,6 @@
   - [Built with](#built-with)
   - [Dependency to install] (#dependency)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Overview
@@ -25,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-
+![localhost_3000_ (1)](https://user-images.githubusercontent.com/103720345/185876000-ad78d868-83cf-4771-aa82-fe45a4fb42ab.png)
 
 
 ### Links
@@ -42,6 +41,7 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
+- Bootstrap
 
 
 ### dependency
@@ -53,10 +53,9 @@ Users should be able to:
 ## Author
 
 - Website - [Abiona Olushola](https://www.your-site.com)
-- Twitter - [@abiona_jude](https://www.twitter.com/yourusername)
+- Twitter - [@abiona_jude](https://www.twitter.com/abiona_jude)
 
 
-## Acknowledgments
 
 
 
