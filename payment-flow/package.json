@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Abiona-0lushola-Jude.github.io/Assesment/payment-flow",
+  "homepage": "http://Abiona-0lushola-Jude.github.io/Assesment/payment-flow",
   "name": "payment-flow",
   "version": "0.1.0",
   "private": true,
@@ -20,6 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeloy":"npm run build",
+    "deploy":"gh-pages -d build"
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
